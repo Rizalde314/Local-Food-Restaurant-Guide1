@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#faf7ef">
+    <title>Reservation | Local Food Restaurant</title>
+
+    <link rel="stylesheet" href="css/reservation1.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="reservation-header">
+
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservation.html" class="active" aria-current="page">Reservation</a>
+            <a href="index.html#chef">Chef</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- RESERVATION HERO -->
+        <section class="reservation-hero">
+            <p class="eyebrow">YOUR TABLE IS WAITING</p>
+            <h1>Make a Reservation</h1>
+            <p>
+                Good food tastes even better when shared.
+                Reserve your table and enjoy a wonderful dining experience with us.
+            </p>
+        </section>
+
+        <!-- MAIN CONTENT -->
+        <div class="reservation-container">
+
+            <!-- BOOKING FORM -->
+            <section class="card reservation-form-card">
+
+                <div class="card-heading">
+                    <span class="heading-icon">✳</span>
+                    <div>
+                        <p class="eyebrow">LET'S GET YOU A TABLE</p>
+                        <h2>Table Reservation</h2>
+                    </div>
+                </div>
+
+                <p class="form-description">
+                    Please complete the information below to reserve your table.
+                </p>
+
+                <form id="reservationForm">
+
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname"
+                            placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email"
+                                placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone"
+                                placeholder="Enter your phone number" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="date">Reservation Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time">Reservation Time</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select guests</option>
+                                <option>1 Guest</option>
+                                <option>2 Guests</option>
+                                <option>3 Guests</option>
+                                <option>4 Guests</option>
+                                <option>5 Guests</option>
+                                <option>6+ Guests</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="table">Table Preference</label>
+                            <select id="table" name="table">
+                                <option>Standard Table</option>
+                                <option>Window Side</option>
+                                <option>Outdoor Table</option>
+                                <option>Quiet Area</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="requests">Special Requests</label>
+                        <textarea id="requests" name="requests"
+                            rows="4"
+                            placeholder="Any special requests? Let us know..."></textarea>
+                    </div>
+
+                    <button type="submit" class="book-button">
+                        Book Your Table <span>→</span>
+                    </button>
+
+                    <p class="form-note">
+                        ♡ We look forward to welcoming you!
+                    </p>
+
+                </form>
+
+            </section>
+
+            <!-- RIGHT SIDE INFORMATION -->
+            <aside class="reservation-sidebar">
+
+                <!-- OPENING HOURS -->
+                <section class="card hours-card">
+
+                    <p class="eyebrow">WHEN TO VISIT</p>
+                    <h2>Opening Hours</h2>
+
+                    <table class="hours-table">
+
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9 AM - 11 PM</td>
+                        </tr>
+
+                        <tr>
+                            <td>Saturday</td>
+                            <td>9 AM - 9 PM</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sunday</td>
+                            <td>9 AM - 8 PM</td>
+                        </tr>
+
+                    </table>
+
+                    <div class="hours-note">
+                        <span>✳</span>
+                        <p>We are excited to serve you. Plan your visit with us!</p>
+                    </div>
+
+                </section>
+
+                <!-- LOCATION -->
+                <section class="card location-card">
+
+                    <p class="eyebrow">COME VISIT US</p>
+                    <h2>Our Location</h2>
+
+                    <p class="location-description">
+                        Find us in Catbalogan City and enjoy delicious local favorites.
+                    </p>
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Catbalogan+City&output=embed"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Map showing Catbalogan City">
+                    </iframe>
+
+                    <a class="map-link"
+                        href="https://www.google.com/maps/search/?api=1&query=Catbalogan+City"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        View on Google Maps ↗
+                    </a>
+
+                </section>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="reservation-footer">
+
+        <a class="brand" href="index.html">
+            <span class="brand-mark">✳</span>
+            <span>LOCAL FOOD RESTAURANT</span>
+        </a>
+
+        <p>Good food, close to home.</p>
+
+        <p class="copyright">
+            © 2026 Local Food Restaurant. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>

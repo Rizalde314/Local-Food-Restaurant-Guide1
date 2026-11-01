@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover local dishes, neighborhood restaurants, and the people behind good food.">
+    <meta name="theme-color" content="#f8f6f0">
+    <title>Taste Local | Food from around the neighborhood</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservation1.html">Reservation</a>
+            <a href="#chef">Chef</a>
+        </nav>
+
+        <a class="brand" href="#home" aria-label="Taste Local home">
+            <span class="brand-mark" aria-hidden="true">✳</span>
+            <span>LOCAL FOOD RESTAURANT</span>
+        </a>
+        
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span aria-hidden="true">●</span> GOOD FOOD, CLOSE TO HOME</p>
+                <h1>A little more local.<br><span>A lot more delicious.</span></h1>
+                <p class="hero-description">Meet the neighborhood kitchens, seasonal ingredients, and comforting dishes that make eating local feel special.</p>
+                <div class="hero-note"><span class="note-icon" aria-hidden="true">♡</span><span>Made for curious eaters and the people who feed them.</span></div>
+            </div>
+            <div class="hero-art">
+                <div class="sun-shape"></div>
+                <img class="food-bowl-image" src="images/Local_Food_R_Logo.jpg" alt="Illustration of a colorful bowl of fresh vegetables" width="150" height="150">
+                <span class="art-sparkle sparkle-one" aria-hidden="true">✳</span>
+                <span class="art-sparkle sparkle-two" aria-hidden="true">✦</span>
+            </div>
+        </section>
+
+        <section class="discover section-wrap" id="discover">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">A GOOD PLACE TO START</p>
+                    <h2>What's on your plate?</h2>
+                </div>
+                <p>From slow lunches to something sweet, follow your appetite.</p>
+            </div>
+            <div class="food-categories">
+                <a class="category-card category-green" href="#recommendations" data-category-link="plant-based">
+                    <span class="category-icon" aria-hidden="true">🥬</span>
+                    <span><strong>Fresh &amp; plant-based</strong><small>Bright, seasonal bites</small></span>
+                    <span class="category-arrow" aria-hidden="true">↗</span>
+                </a>
+                <a class="category-card category-yellow" href="#recommendations" data-category-link="comfort">
+                    <span class="category-icon" aria-hidden="true">🍲</span>
+                    <span><strong>Comfort food</strong><small>The dishes you come back for</small></span>
+                    <span class="category-arrow" aria-hidden="true">↗</span>
+                </a>
+                <a class="category-card category-pink" href="#recommendations" data-category-link="bakery">
+                    <span class="category-icon" aria-hidden="true">🥐</span>
+                    <span><strong>Something sweet</strong><small>Little treats, made nearby</small></span>
+                    <span class="category-arrow" aria-hidden="true">↗</span>
+                </a>
+            </div>
+            <div class="recommendations" id="recommendations">
+                <div class="recommendations-heading">
+                    <div>
+                        <p class="eyebrow">A FEW IDEAS FOR YOUR NEXT BITE</p>
+                        <h2>Local food to try</h2>
+                    </div>
+                    <p>Explore Filipino favorites, from savory chicken adobo to tangy sinigang and crispy lumpia.</p>
+                </div>
+                <div class="recommendation-grid">
+                    <article class="recommendation-card">
+                        <a href="menu.html#manok">
+                        <div class="recommendation-art recommendation-art-green" aria-hidden="true">
+                            <img src="images/Chicken_Adobo.jpg" alt="" width="100" height="100">
+                            <span class="recommendation-tag">SAVORY FAVORITE</span>
+                        </div>
+                        <div class="recommendation-copy">
+                            <p class="recommendation-type">CHICKEN · FILIPINO CLASSIC</p>
+                            <h3>Chicken adobo</h3>
+                            <p>Chicken braised with soy sauce, vinegar, garlic, and seasonings until tender and full of savory flavor. Often served with rice.</p>
+                        </div>
+                        </a>
+                    </article>
+                    <article class="recommendation-card">
+                        <a href="menu.html">
+                        <div class="recommendation-art recommendation-art-orange" aria-hidden="true">
+                            <img src="images/Pork_Sinigang.jpg" alt="" width="100" height="100">
+                            <span class="recommendation-tag">TANGY COMFORT</span>
+                        </div>
+                        <div class="recommendation-copy">
+                            <p class="recommendation-type">PORK · SOUR SOUP</p>
+                            <h3>Pork sinigang</h3>
+                            <p>A comforting Filipino soup with tender pork, vegetables, and a pleasantly sour broth, commonly flavored with tamarind.</p>
+                        </div>
+                        </a>
+                    </article>
+                    <article class="recommendation-card">
+                        <a href="menu.html">
+                        <div class="recommendation-art recommendation-art-pink" aria-hidden="true">
+                            <img src="images/Lumpia.jpg" alt="" width="100" height="100">
+                            <span class="recommendation-tag">CRISPY FAVORITE</span>
+                        </div>
+                        <div class="recommendation-copy">
+                            <p class="recommendation-type">CRISPY · SHAREABLE SNACK</p>
+                            <h3>Filipino lumpia</h3>
+                            <p>Thin wrappers fried until crisp around a savory filling, often served with a sweet-and-sour dipping sauce.</p>
+                        </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="chef-spotlight" id="chef">
+            <div class="chef-photo-wrap">
+                <img class="chef-photo" src="images/Chef-portrait.jpg" alt="Illustration portrait of Chef Aniela Aguilar" alt="" width="100" height="120">
+                <span class="chef-photo-label">IN THE KITCHEN</span>
+            </div>
+            <div class="chef-profile">
+                <p class="eyebrow">CHEF SPOTLIGHT · PROFILE</p>
+                <h2>Meet Chef Aniela Aguilar</h2>
+                <p class="chef-role">Cook, market regular, and believer in sharing a good meal.</p>
+                <p class="chef-bio">Aniela builds her menus around what local growers bring in each week. Her cooking pairs familiar family recipes with fresh, seasonal ingredients—simple food made with care.</p>
+                <blockquote>“The best dish starts with good ingredients and gets better when you share it.”</blockquote>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-mark" aria-hidden="true">✳</div>
+            <div>
+                <p class="eyebrow">A TASTIER KIND OF NEIGHBORHOOD</p>
+                <h2>Good food brings us closer.</h2>
+                <p>Local food is more than what’s on the menu. It’s the growers, cooks, and neighbors who make every meal mean a little more.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span><span>Local Food Restaurant</span></a>
+        <p>Good food, close to home. <span>© <span id="current-year">2026</span> Local Food Restaurant</span></p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+</body>
+</html>
